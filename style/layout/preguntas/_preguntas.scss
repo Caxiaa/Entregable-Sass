@@ -1,0 +1,85 @@
+.page-header{
+    background-color: #f3f3f3;
+    padding: 20px;
+    
+    .frec{
+        color: #007de2;
+    }
+    .breadcrumbs{
+        .crumb{
+            text-decoration: none;   
+        }
+    }
+}
+
+.foto-preguntas{
+    img{
+        width: 80%;
+        height: 500px;
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+}
+
+.preguntas-respuestas{
+    margin-left: 150px;
+    width: 80%;
+    display: inline-block;
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    strong{
+        font-family: 'Catamaran', sans-serif;
+        line-height: 35px;
+        margin-left: 150px;
+        color:#007de2;
+    }
+    p{
+        font-family: 'Catamaran', sans-serif;
+        line-height: 25px;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width:715px){
+    .preguntas-respuestas{
+        font-size: 2vh;
+
+        p{
+            margin-left: 75px;
+        }
+        strong{
+            margin-left: 75px;
+        }
+    }
+}
+
+@media screen and (max-width:760px){
+    .foto-preguntas{
+        display: none;
+    }
+    .preguntas-respuestas{
+        font-size: 2vh; 
+        margin-left: 0px;
+        width: 100%;
+        p{
+            margin-left: 25px;
+        }
+        strong{
+            margin-left: 25px;
+        }
+    }
+}
+
+@media screen and (max-width:420px){
+    .preguntas-respuestas{
+        font-size: 1.5vh;
+    }
+    .logo-correo{
+        width: 50%;
+    }
+    .logo-oca{
+        width: 25%;
+    }
+}
+

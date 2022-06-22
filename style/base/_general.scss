@@ -24,21 +24,22 @@ body {
         grid-template-columns: auto auto auto auto;
     border-top: 1px solid black;
     /* background:linear-gradient(to bottom,#057cdd,#ffffff); */
-    background-color: $mrk_color;
+    background-color: $fondos_galeria;
 
     li {
-      font-family: 'Agency FB';
+      font-family: 'Catamaran', sans-serif;
       display: block;
       padding: 0.3em;
       font-size: 20px;
     }
 
     h3 {
-      font-family: 'Bebas';
+      font-family: 'Catamaran', sans-serif;
       padding-bottom: 0.5em;
       padding-left: 3.2em;
       font-size: 22px;
       text-decoration: underline;
+      color: rgba(46, 46, 46, 0.867);
     }
 
     .foot-text {
@@ -60,6 +61,7 @@ body {
     }
 
 }
+
   
   
   

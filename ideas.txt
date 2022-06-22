@@ -1,0 +1,7 @@
+-hacer los nuevos productos y las ofertas en cartas (index)
+
+-acomodar el footer. poner navegacion con redireccionamiento.
+
+-seccion de preguntas frecuentes.
+
+-no se abre el Mas en el header en la seccion de perfil.
