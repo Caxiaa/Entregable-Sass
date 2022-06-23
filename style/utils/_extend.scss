@@ -1,0 +1,9 @@
+
+.Color-Distinto{
+    background-color:aqua;
+}
+
+.nuevos-productos{
+    @extend .Color-Distinto;
+    background-color: black;
+}

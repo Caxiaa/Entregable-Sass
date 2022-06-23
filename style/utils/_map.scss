@@ -1,0 +1,11 @@
+$color-preguntas:(
+    pregunta: #007de2,
+    respuesta: black,
+);
+
+
+@each $i, $color in $color-preguntas{
+    .color--#{$i}{
+        color: $color;
+    }
+}

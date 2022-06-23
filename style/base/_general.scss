@@ -16,51 +16,57 @@ body {
     text-align: center;
 }
 
-.foot-container {
-    padding: 4em;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto auto auto auto;
-        grid-template-columns: auto auto auto auto;
-    border-top: 1px solid black;
-    /* background:linear-gradient(to bottom,#057cdd,#ffffff); */
-    background-color: $fondos_galeria;
-
-    li {
-      font-family: 'Catamaran', sans-serif;
-      display: block;
-      padding: 0.3em;
-      font-size: 20px;
-    }
-
-    h3 {
-      font-family: 'Catamaran', sans-serif;
-      padding-bottom: 0.5em;
-      padding-left: 3.2em;
-      font-size: 22px;
-      text-decoration: underline;
-      color: rgba(46, 46, 46, 0.867);
-    }
-
-    .foot-text {
-      text-align: left;
-    }
-
-    .red-socials {
-      display: -ms-grid;
-      display: grid;
-      -ms-grid-columns: auto;
-          grid-template-columns: auto;
-      -ms-grid-rows: auto auto auto;
-          grid-template-rows: auto auto auto;
-
-        .socials-img img {
-            width: 40px;
-            height: 40px;
-        }
-    }
-
+.img-logo{
+    width: 75%;
 }
+
+
+
+// .foot-container {
+//     padding: 4em;
+//     display: -ms-grid;
+//     display: grid;
+//     -ms-grid-columns: auto auto auto auto;
+//         grid-template-columns: auto auto auto auto;
+//     border-top: 1px solid black;
+//     /* background:linear-gradient(to bottom,#057cdd,#ffffff); */
+//     background-color: $fondos_galeria;
+
+//     li {
+//       font-family: 'Catamaran', sans-serif;
+//       display: block;
+//       padding: 0.3em;
+//       font-size: 20px;
+//     }
+
+//     h3 {
+//       font-family: 'Catamaran', sans-serif;
+//       padding-bottom: 0.5em;
+//       padding-left: 3.2em;
+//       font-size: 22px;
+//       text-decoration: underline;
+//       color: rgba(46, 46, 46, 0.867);
+//     }
+
+//     .foot-text {
+//       text-align: left;
+//     }
+
+//     .red-socials {
+//       display: -ms-grid;
+//       display: grid;
+//       -ms-grid-columns: auto;
+//           grid-template-columns: auto;
+//       -ms-grid-rows: auto auto auto;
+//           grid-template-rows: auto auto auto;
+
+//         .socials-img img {
+//             width: 40px;
+//             height: 40px;
+//         }
+//     }
+
+// }
 
   
   
