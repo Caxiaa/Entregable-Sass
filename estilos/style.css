@@ -20,11 +20,63 @@ body {
   width: 75%;
 }
 
+.foot-container {
+  background-color: #ebebeb;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  padding-top: 2vh;
+  padding-bottom: 20px;
+}
+
+.foot-container h3 {
+  text-align: start;
+  padding-bottom: 1vh;
+  color: #007de2;
+  font-family: "Catamaran", "sans-serif";
+}
+
+.foot-container .foot-section {
+  padding-left: 3vh;
+}
+
+.foot-container .foot-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.foot-container .foot-section ul {
+  padding-left: 0;
+}
+
+.foot-container .foot-section ul li {
+  margin-top: 0.5vh;
+  list-style: none;
+  text-align: start;
+  font-family: "Catamaran", "sans-serif";
+}
+
+.foot-container .red-socials .socials-img {
+  padding: 10px;
+}
+
+.foot-container .red-socials .socials-img img {
+  width: 5vh;
+  height: 5vh;
+}
+
+.copyright-container {
+  text-align: center;
+  background-color: #c2c2c2;
+  padding: 15px;
+}
+
 .nuevos-productos {
   text-align: center;
   font-size: 35px;
   border-bottom: 4px solid black;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", "sans-serif";
   padding: 1em;
   background-color: black;
   color: white;
@@ -76,7 +128,7 @@ body {
 .second-section h2 {
   color: white;
   text-align: center;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", "sans-serif";
   font-size: 2em;
 }
 
