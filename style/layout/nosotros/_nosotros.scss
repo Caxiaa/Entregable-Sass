@@ -1,0 +1,77 @@
+.body-nosotros-container {
+    width: 100%;
+    height: 100%;
+    background: $fondos_galeria;
+    text-align: center;
+
+    .h2-nosotros{
+    
+        h2{
+            margin-left: 40px;
+            margin-right: 40px;
+            font-size: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #3122fa;
+            font-family: 'Catamaran', sans-serif;
+        }
+      }
+    
+    .nosotros-container {
+        text-align: center;
+        font-family: 'Catamaran', sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        margin: 40px;
+        border-bottom: 1px solid #3122fa;
+    }
+    
+    .contact-container {
+        width: 500px;
+        padding: 30px;
+        display: inline-block;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        border-radius: 4px;
+        background-color: transparent;
+        margin-bottom: 10px;
+        background-color: $mrk_color;
+    
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+          }
+    
+        .contact-form{
+    
+            .controls{
+                width: 90%;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 4px;
+                margin-bottom: 16px;
+                border: 1px solid black;
+            }
+        }
+    
+        p{
+            height: 40px;
+            font-size: 18px;
+            display: inline;
+        }
+    
+        .boton {
+            width: 100%;
+            padding: 12px;
+            margin: 16px 0;
+            font-size: 16px;
+        }
+      }
+  }
+
+  @media(max-width: 480px){
+    .contact-container{
+      width: 100%;
+    }
+  }

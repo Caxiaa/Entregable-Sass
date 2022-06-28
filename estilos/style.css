@@ -72,6 +72,22 @@ body {
   padding: 15px;
 }
 
+@media screen and (max-width: 940px) {
+  .logo h1 {
+    font-size: 50px;
+  }
+  li a:hover, li a.active {
+    background-color: none;
+    color: #76bef8;
+  }
+  .foot-container {
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+}
+
 .nuevos-productos {
   text-align: center;
   font-size: 35px;
@@ -152,6 +168,12 @@ body {
 .second-section .promos-container img:hover {
   -webkit-box-shadow: 4px 4px 20px black;
   box-shadow: 4px 4px 20px black;
+}
+
+@media screen and (max-width: 460px) {
+  .promo img {
+    width: 300px;
+  }
 }
 
 .page-header {
@@ -236,6 +258,121 @@ body {
   }
 }
 
+.h2-products-section {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Bebas';
+  background-color: #f3f3f3;
+  margin: 5px;
+}
+
+.galeria-completa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.galeria-completa .card {
+  width: 18rem;
+  padding-bottom: 30px;
+}
+
+.galeria-completa .btn {
+  margin: 20px;
+}
+
+@media screen and (max-width: 1490px) {
+  .galeria-completa {
+    -ms-grid-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .galeria-completa {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .galeria-completa {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+.body-nosotros-container {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3;
+  text-align: center;
+}
+
+.body-nosotros-container .h2-nosotros h2 {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3122fa;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.body-nosotros-container .nosotros-container {
+  text-align: center;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin: 40px;
+  border-bottom: 1px solid #3122fa;
+}
+
+.body-nosotros-container .contact-container {
+  width: 500px;
+  padding: 30px;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  background-color: #007de2;
+}
+
+.body-nosotros-container .contact-container h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.body-nosotros-container .contact-container .contact-form .controls {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+
+.body-nosotros-container .contact-container p {
+  height: 40px;
+  font-size: 18px;
+  display: inline;
+}
+
+.body-nosotros-container .contact-container .boton {
+  width: 100%;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    width: 100%;
+  }
+}
+
 .Color-Distinto, .nuevos-productos {
   background-color: aqua;
 }
@@ -250,158 +387,5 @@ body {
 
 .color--respuesta {
   color: black;
-}
-
-.h2-products-section {
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Bebas';
-  background-color: #f3f3f3;
-}
-
-.h2-nosotros h2 {
-  margin-left: 40px;
-  margin-right: 40px;
-  font-size: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #3122fa;
-  font-family: 'Catamaran', sans-serif;
-}
-
-.nosotros-container {
-  text-align: center;
-  font-family: 'Catamaran', sans-serif;
-  font-size: 20px;
-  padding: 10px;
-  margin: 40px;
-  border-bottom: 1px solid #3122fa;
-}
-
-.contact-container h2 {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.contact-container {
-  width: 500px;
-  padding: 30px;
-  display: inline-block;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-color: transparent;
-  margin-bottom: 10px;
-  background-color: #007de2;
-}
-
-.controls {
-  width: 90%;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid black;
-}
-
-.contact-container p {
-  height: 40px;
-  font-size: 18px;
-  display: inline;
-}
-
-.boton {
-  width: 100%;
-  padding: 12px;
-  margin: 16px 0;
-  font-size: 16px;
-}
-
-.mrk-portada {
-  width: 100%;
-  height: 100%;
-}
-
-.mrk-portada img {
-  width: 100%;
-  height: 100%;
-  border-bottom: 2px solid #2f26b1;
-  border-top: 2px solid #2f26b1;
-}
-
-.body-nosotros-container {
-  width: 100%;
-  height: 100%;
-  background: #f3f3f3;
-  text-align: center;
-}
-
-.boton-a {
-  text-decoration: none;
-  font-family: 'Bebas';
-}
-
-.boton-container {
-  margin: 50px;
-  border: 1px solid black;
-  border-radius: 30px;
-}
-
-.profile {
-  display: inline-block;
-}
-
-.profile img {
-  width: 300px;
-  margin: 10px;
-}
-
-.profile h2 {
-  text-align: center;
-}
-
-@media screen and (max-width: 1490px) {
-  .galeria-completa {
-    -ms-grid-columns: auto auto auto;
-    grid-template-columns: auto auto auto;
-  }
-}
-
-@media screen and (max-width: 940px) {
-  .logo h1 {
-    font-size: 50px;
-  }
-  li a:hover, li a.active {
-    background-color: none;
-    color: #76bef8;
-  }
-  .galeria-completa {
-    display: block;
-  }
-  .foot-container {
-    -ms-grid-columns: auto auto;
-    grid-template-columns: auto auto;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
-  }
-}
-
-@media (max-width: 480px) {
-  .contact-container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .promo1 img {
-    width: 300px;
-  }
-  .promo2 img {
-    width: 300px;
-  }
-  .promo3 img {
-    width: 300px;
-  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+.h2-products-section {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas';
+    background-color: #f3f3f3;
+    margin: 5px;
+  }
+
+  .galeria-completa{
+    justify-content: space-around;
+
+    .card{
+      width: 18rem;
+      padding-bottom: 30px;
+    }
+    .btn{
+      margin: 20px;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 1490px) {
+    .galeria-completa {
+      -ms-grid-columns: auto auto auto;
+          grid-template-columns: auto auto auto;
+    }
+  }
+
+  @media screen and (max-width: 900px){
+    .galeria-completa{
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media screen and (max-width: 640px){
+    .galeria-completa{
+      grid-template-columns: auto;
+    }
+  }

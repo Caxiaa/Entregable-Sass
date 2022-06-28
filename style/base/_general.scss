@@ -71,6 +71,23 @@ body {
     padding: 15px;
 }
 
+@media screen and (max-width: 940px) {
+    .logo h1 {
+      font-size: 50px;
+    }
+  
+    li a:hover, li a.active {
+      background-color: none;
+      color: #76bef8;
+    }
+    .foot-container {
+      -ms-grid-columns: auto auto;
+          grid-template-columns: auto auto;
+      -ms-grid-rows: auto auto;
+          grid-template-rows: auto auto;
+    }
+  }
+
 
   
   
